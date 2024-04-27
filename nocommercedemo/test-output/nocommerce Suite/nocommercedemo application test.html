@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  nocommercedemo application test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>nocommercedemo application test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 18 19:56:23 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>461 seconds (461010 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.HomePageTest.homepagepageTitle()'><b>homepagepageTitle</b><br>Test class: com.nocommercedemo.Testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.HomePageTest@53fe15ff</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.WishlistPageTest.wishlisttable()'><b>wishlisttable</b><br>Test class: com.nocommercedemo.Testcases.WishlistPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.nocommercedemo.Testcases.WishlistPageTest@74ea2410</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.CheckoutBillingPageTest.verifytitleofbillingpage()'><b>verifytitleofbillingpage</b><br>Test class: com.nocommercedemo.Testcases.CheckoutBillingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.CheckoutBillingPageTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.RegisterPageTest.createAccountTest()'><b>createAccountTest</b><br>Test class: com.nocommercedemo.Testcases.RegisterPageTest<br>Parameters: Male, Rohit, Sharma, 5, 6, 1993, rohit@gmail.com, xyz pvt ltd, 232323, 232323</td>
+<td></td>
+<td>4</td>
+<td>com.nocommercedemo.Testcases.RegisterPageTest@2eae8e6e</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.LoginPageTest.logintitlepage()'><b>logintitlepage</b><br>Test class: com.nocommercedemo.Testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.LoginPageTest@8f2ef19</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.DeskTopPageTest.selectcputype()'><b>selectcputype</b><br>Test class: com.nocommercedemo.Testcases.DeskTopPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.nocommercedemo.Testcases.DeskTopPageTest@173ed316</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.ShopingCartPageTest.verifyAddtocart()'><b>verifyAddtocart</b><br>Test class: com.nocommercedemo.Testcases.ShopingCartPageTest</td>
+<td></td>
+<td>16</td>
+<td>com.nocommercedemo.Testcases.ShopingCartPageTest@17f62e33</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.CheckoutPaymentmethodPageTest.verifypaymentmethodpage()'><b>verifypaymentmethodpage</b><br>Test class: com.nocommercedemo.Testcases.CheckoutPaymentmethodPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.nocommercedemo.Testcases.CheckoutPaymentmethodPageTest@2af004b</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.CheckoutShippingMethodPageTest.verifyshippingmethodpage()'><b>verifyshippingmethodpage</b><br>Test class: com.nocommercedemo.Testcases.CheckoutShippingMethodPageTest<br>Parameters: sanvi, Negi, sanvi@Negi, abc pvt ltd, punjab, jaipur, 3456, 345677</td>
+<td></td>
+<td>7</td>
+<td>com.nocommercedemo.Testcases.CheckoutShippingMethodPageTest@27406a17</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.ComputerPageTest.computeritems()'><b>computeritems</b><br>Test class: com.nocommercedemo.Testcases.ComputerPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.nocommercedemo.Testcases.ComputerPageTest@69e153c5</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.CheckoutCardtypemethodpageTest.verifycardmethodmethodpage()'><b>verifycardmethodmethodpage</b><br>Test class: com.nocommercedemo.Testcases.CheckoutCardtypemethodpageTest</td>
+<td></td>
+<td>2</td>
+<td>com.nocommercedemo.Testcases.CheckoutCardtypemethodpageTest@248e319b</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.LoginPageTest.loginpage()'><b>loginpage</b><br>Test class: com.nocommercedemo.Testcases.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.nocommercedemo.Testcases.LoginPageTest@8f2ef19</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.WishlistPageTest.wishlistpagepageTitle()'><b>wishlistpagepageTitle</b><br>Test class: com.nocommercedemo.Testcases.WishlistPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.WishlistPageTest@74ea2410</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.MyAcoountPageTest.myaccountpageTitle()'><b>myaccountpageTitle</b><br>Test class: com.nocommercedemo.Testcases.MyAcoountPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.MyAcoountPageTest@7674f035</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.ProductInfoPageTest.addwishandcomparelist()'><b>addwishandcomparelist</b><br>Test class: com.nocommercedemo.Testcases.ProductInfoPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.nocommercedemo.Testcases.ProductInfoPageTest@25ce9dc4</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.ShopingCartPageTest.CartpageTitle()'><b>CartpageTitle</b><br>Test class: com.nocommercedemo.Testcases.ShopingCartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.ShopingCartPageTest@17f62e33</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.CheckoutBillingPageTest.verifybillingpage()'><b>verifybillingpage</b><br>Test class: com.nocommercedemo.Testcases.CheckoutBillingPageTest<br>Parameters: sanvi, Negi, sanvi@Negi, abc pvt ltd, punjab, jaipur, 3456, 345677</td>
+<td></td>
+<td>6</td>
+<td>com.nocommercedemo.Testcases.CheckoutBillingPageTest@76b1e9b8</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.DeskTopPageTest.desktoppageTitle()'><b>desktoppageTitle</b><br>Test class: com.nocommercedemo.Testcases.DeskTopPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.nocommercedemo.Testcases.DeskTopPageTest@173ed316</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.RegisterPageTest.createAccountTest()'><b>createAccountTest</b><br>Test class: com.nocommercedemo.Testcases.RegisterPageTest<br>Parameters: female, Rashi, Thakur, 4, 4, 1992, Rashi@gmail.com, abc pvt ltd, 565656, 565656</td>
+<td></td>
+<td>4</td>
+<td>com.nocommercedemo.Testcases.RegisterPageTest@2eae8e6e</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.RegisterPageTest.Registertitlepage()'><b>Registertitlepage</b><br>Test class: com.nocommercedemo.Testcases.RegisterPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.nocommercedemo.Testcases.RegisterPageTest@2eae8e6e</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.MyAcoountPageTest.myaccount()'><b>myaccount</b><br>Test class: com.nocommercedemo.Testcases.MyAcoountPageTest<br>Parameters: aarohi, sahu, aarohisahu@gmail.com, abc pvt ltd, Mumbai, ahmedabad, 1234, 23445</td>
+<td></td>
+<td>11</td>
+<td>com.nocommercedemo.Testcases.MyAcoountPageTest@7674f035</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.HomePageTest.homepageallfunctions()'><b>homepageallfunctions</b><br>Test class: com.nocommercedemo.Testcases.HomePageTest</td>
+<td></td>
+<td>29</td>
+<td>com.nocommercedemo.Testcases.HomePageTest@53fe15ff</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.ComputerPageTest.computerpageTitle()'><b>computerpageTitle</b><br>Test class: com.nocommercedemo.Testcases.ComputerPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.nocommercedemo.Testcases.ComputerPageTest@69e153c5</td></tr>
+<tr>
+<td title='com.nocommercedemo.Testcases.OrderConfirmPageTest.verifyConfirmOdrerpage()'><b>verifyConfirmOdrerpage</b><br>Test class: com.nocommercedemo.Testcases.OrderConfirmPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.nocommercedemo.Testcases.OrderConfirmPageTest@5d0bf09b</td></tr>
+</table><p>
+</body>
+</html>

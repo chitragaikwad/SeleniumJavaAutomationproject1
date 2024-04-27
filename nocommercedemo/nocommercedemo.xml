@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="nocommerce Suite">
+	<listeners>
+		<listener class-name="com.nocommercedemo.utility.ExtentManager"/>
+	</listeners>
+	<test name="nocommercedemo application test">
+		<classes>
+
+			<class name="com.nocommercedemo.Testcases.HomePageTest" />
+			<class name="com.nocommercedemo.Testcases.RegisterPageTest" />
+			<class name="com.nocommercedemo.Testcases.LoginPageTest" />
+			<class name="com.nocommercedemo.Testcases.MyAcoountPageTest" />
+			<class name="com.nocommercedemo.Testcases.ComputerPageTest" />
+			<class name="com.nocommercedemo.Testcases.DeskTopPageTest" />
+			<class name="com.nocommercedemo.Testcases.ProductInfoPageTest" />
+			<class name="com.nocommercedemo.Testcases.WishlistPageTest" />
+			<class name="com.nocommercedemo.Testcases.ShopingCartPageTest" />
+			<class name="com.nocommercedemo.Testcases.CheckoutBillingPageTest" />
+			<class
+				name="com.nocommercedemo.Testcases.CheckoutShippingMethodPageTest" />
+			<class
+				name="com.nocommercedemo.Testcases.CheckoutPaymentmethodPageTest" />
+			<class
+				name="com.nocommercedemo.Testcases.CheckoutCardtypemethodpageTest" />
+
+			<class name="com.nocommercedemo.Testcases.OrderConfirmPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
